@@ -113,18 +113,20 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  border: 20px solid pink;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #8b1f19;
+  height: 400px;
+  padding: 10px;
   display: flex;
   width: 30%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
