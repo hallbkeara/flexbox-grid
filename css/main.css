@@ -108,14 +108,32 @@ body {
   height: 100%;
 }
 
+header {
+    font-size: 2em;
+    font-family: 'Sriracha', cursive;
+}
+
+header, 
+main, 
+footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/*FLEX CONTAINER*/
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap; 
+  align-items: center; 
+  justify-content: center; 
   border: 20px solid pink;
 }
 
+/*FLEX ITEMS*/
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
